@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA013F6528C3901800808E4C /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA013F6428C3901800808E4C /* Calculator.swift */; };
+		FA013F6728C3912B00808E4C /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA013F6628C3912B00808E4C /* CalculatorViewModel.swift */; };
 		FA62535B28BB55F100ABB729 /* CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA62535A28BB55F100ABB729 /* CalculatorApp.swift */; };
 		FA62535F28BB55F300ABB729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA62535E28BB55F300ABB729 /* Assets.xcassets */; };
 		FA62536228BB55F300ABB729 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA62536128BB55F300ABB729 /* Preview Assets.xcassets */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA013F6428C3901800808E4C /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		FA013F6628C3912B00808E4C /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
 		FA62535728BB55F100ABB729 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA62535A28BB55F100ABB729 /* CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorApp.swift; sourceTree = "<group>"; };
 		FA62535E28BB55F300ABB729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -88,6 +92,7 @@
 				FA62536A28BB593700ABB729 /* ButtonType.swift */,
 				FA62536F28BB5A3500ABB729 /* Digits.swift */,
 				FA62537128BB5A5400ABB729 /* ArithmeticOperations.swift */,
+				FA013F6428C3901800808E4C /* Calculator.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -97,6 +102,7 @@
 			children = (
 				FA62537628BB7EF800ABB729 /* Components */,
 				FA62536828BB56CB00ABB729 /* CalculatorView.swift */,
+				FA013F6628C3912B00808E4C /* CalculatorViewModel.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -191,7 +197,9 @@
 				FA62537828BB7F2400ABB729 /* CalculatorButton.swift in Sources */,
 				FA62537228BB5A5400ABB729 /* ArithmeticOperations.swift in Sources */,
 				FA62536B28BB593700ABB729 /* ButtonType.swift in Sources */,
+				FA013F6728C3912B00808E4C /* CalculatorViewModel.swift in Sources */,
 				FA62537528BB7A3900ABB729 /* CalculatorButtonStyle.swift in Sources */,
+				FA013F6528C3901800808E4C /* Calculator.swift in Sources */,
 				FA62535B28BB55F100ABB729 /* CalculatorApp.swift in Sources */,
 				FA62537028BB5A3500ABB729 /* Digits.swift in Sources */,
 				FA62537A28BB80E400ABB729 /* Constants.swift in Sources */,
