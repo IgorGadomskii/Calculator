@@ -55,12 +55,12 @@ struct Calculator {
         expression = ArithmeticExpression(number: number, operation: operation)
         
         newNumber = nil
-
     }
     
     mutating func toggleSign() {
         
     }
+    
     
     mutating func setDecimal(){
         
@@ -73,9 +73,11 @@ struct Calculator {
         newNumber = nil
     }
     
+    
     mutating func allClear(){
         
     }
+    
     
     mutating func clear(){
         
