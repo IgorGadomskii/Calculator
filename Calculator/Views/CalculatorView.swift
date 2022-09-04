@@ -21,6 +21,7 @@ struct CalculatorView: View {
 struct CalculatorView_Previews: PreviewProvider {
     static var previews: some View {
         CalculatorView()
+            .environmentObject(CalculatorView.ViewModel())
     }
 }
 

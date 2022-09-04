@@ -10,7 +10,9 @@ extension CalculatorView {
         @EnvironmentObject private var viewModel: ViewModel
         
         var body: some View {
-            Button(buttonType.description) { }
+            Button(buttonType.description) {
+                viewModel.performingAction(for: buttonType)
+            }
                 .buttonStyle(CalculatorButtonStyle(
                     size: getButtonSize(),
                     backgroundColor: getBackgroundColor(),
